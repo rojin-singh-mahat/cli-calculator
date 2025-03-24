@@ -1,0 +1,16 @@
+# Get the first number from the user and convert it to a float
+a = float(input("Enter a number: "))
+
+# Get the second number from the user and convert it to a float
+b = float(input("Enter a number: "))
+
+# Function declaration: Defines a function that takes two parameters a and b
+def subtract(a, b):
+    # Returns the result of subtracting b from a
+    return a - b
+
+# Call the function with a and b as arguments and store the result
+result = subtract(a, b)
+
+# Print the result of subtraction
+print("The result of subtraction is:", result)
